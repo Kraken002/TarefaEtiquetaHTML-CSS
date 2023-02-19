@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Etiqueta em HTML/CSS</title>
-    <style>
-      html,
-      body {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        background: #fff;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etiqueta em HTML/CSS</title>
 
-      .tamanhoReal{
-       max-width: 23.15rem;
-       max-height: 23.65rem;
-      }
+  <style>
 
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-      .container {
-        display: grid;
+    .espaço {
+width: 40px;
 
-    
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-grid-template-rows: 80px;
-      
-      }
+    }
+.container{
+ position: relative;
+ top: 100px;
+ display: grid;
+ width: 9.8cm;
+ height: 10.9cm;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+ grid-template-rows: auto;
+}
 
-      .celula-1 {border: 0.3px solid black;
+.celula-1 {border: 0.3px solid black;
        grid-column-start:1 ;
        grid-column-end: 7;
        display: flex;
        align-items: center;
        justify-content: center;
+       width: 368px;
+       height: 35px;
       }
 
       .celula-2 {
         border: 0.3px solid black;
-        height: 150px;
+        height:83px;
+        width: 235px;
        grid-column-start:1 ;
        grid-column-end: 5;
        display: flex;
@@ -49,144 +51,153 @@ grid-template-rows: 80px;
 
       .celula-3 {
         border: 0.3px solid black;
-        height: 150px;
+        height:83px;
+        width: 65px;
        grid-column-start:5 ;
        grid-column-end: 6;
        display: flex;
        align-items: center;
        justify-content: center;
-      }
+       /* gambiarra */
+      position: relative;
+left: -16px;
+    }
 
       .celula-4 {
         border: 0.3px solid black;
-        height: 427px;
+        width: 65px;
+        height: 235.81px;
        grid-column-start:6 ;
        grid-column-end: 7;
        display: flex;
        align-items: center;
        justify-content: center;
+        /* gambiarra */
+        position: relative;
+        left: -16.5px;
       }
 
       .celula-5 {
         border: 0.3px solid black;
-        height: 138px;
-       grid-column-start:1 ;
+        width: 168.5px;
+      height: 74px;
+      grid-column-start:1 ;
        grid-column-end: 4;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       /* gambiarra abaixo */
+       /* gambiarra */
        position: relative;
-       top: -278px;
+       top: -154.9px;
       }
 
       .celula-6 {
         border: 0.3px solid black;
-        height: 138px;
-       grid-column-start:4 ;
+        width: 63.8px;
+      height: 74.81px;
+      grid-column-start:4 ;
        grid-column-end: 5;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       /* gambiarra abaixo */
+       /* gambiarra */
        position: relative;
-       top: -278px;
+       top: -154.9px;
+       left: -14.5px;
       }
 
       .celula-7 {
         border: 0.3px solid black;
-        height: 276px;
-       grid-column-start:5 ;
+        width: 65px;
+      height: 153px;
+      grid-column-start:5 ;
        grid-column-end: 6;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-        /* gambiarra abaixo */
-        position: relative;
-        top: -278px;
+       /* gambiarra */
+       position: relative;
+       top: -154.9px;
+       left: -16px;
       }
 
-      .celula-8 {
+      .celula-8{
         border: 0.3px solid black;
-        height: 138px;
-       grid-column-start:1 ;
+        width: 168.5px;
+      height: 76.5px;
+      grid-column-start:1 ;
        grid-column-end: 4;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-        /* gambiarra abaixo */
-        position: relative;
-       top: -418px;
+       /* gambiarra */
+       position: relative;
+       top: -233.5px;
       }
 
-
-      .celula-9 {
+      .celula-9{
         border: 0.3px solid black;
-        height: 138px;
-       grid-column-start:4 ;
+        width: 65.5px;
+      height: 77px;
+      grid-column-start:4 ;
        grid-column-end: 5;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-        /* gambiarra abaixo */
-        position: relative;
-        top: -418px;
-      }
-       
-    
-   
-      .celula-10 {
-        border: 0.3px solid black;
-        height: 180px;
-       grid-column-start:1 ;
-       grid-column-end: 7;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       /* gambiarra abaixo */
+       /* gambiarra */
        position: relative;
-        top: -418px;
+       top: -233.5px;
+       left: -14.5px;
       }
 
-      .celula-11 {
+      .celula-9{
         border: 0.3px solid black;
-        height: 100px;
-       grid-column-start:1 ;
-       grid-column-end: 7;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       /* gambiarra abaixo */
+        width: 65.5px;
+      height: 76px;
+      grid-column-start:4 ;
+       grid-column-end: 5;
+       /* gambiarra */
        position: relative;
-        top: -418px;
+       top: -232.5px;
+       left: -15px;
       }
 
-    </style>
-  </head>
-  <body>
-    
-    <div class="TamanhoReal">
-    <div class="container">
-      <div class="celula-1">
-        <img src="https://logodownload.org/wp-content/uploads/2019/02/jadlog-logo-0.png" alt="logoJadlog" style="width:20%;">
-<p>
+      .celula-10{
+        border: 0.3px solid black;
+        width: 368px;
+      height: 80px;
+      grid-column-start:1 ;
+       grid-column-end: 7;
+       /* gambiarra */
+       position: relative;
+       top: -233.5px;
+     
+      }
+
+      .celula-11{
+        border: 0.3px solid black;
+        width: 368px;
+      height: 55px;
+      grid-column-start:1 ;
+       grid-column-end: 7;
+       /* gambiarra */
+       position: relative;
+       top: -233.5px;
+     
+      }
+  </style>
+</head>
+<body>
+  
+
+<div class="container">
+<div class="celula-1">
+  <img src="https://logodownload.org/wp-content/uploads/2019/02/jadlog-logo-0.png" alt="logoJadlog" style="width:20%;">
+  <p class="espaço"></p>
+  <p>
   <strong>ORD-83317779</strong>
 </p>
+<p class="espaço"></p>
 <img src="https://enviosimples.com.br/wp-content/uploads/2022/05/Nova-Logo-Envio-Simples-3-1.svg" alt="logoEnvioSimples" style="width:20%;">
 
-      </div>
-      <div class="celula-2">b</div>
-      <div class="celula-3">c</div>
-      <div class="celula-4">a</div>
-      <div class="celula-5">b</div>
-      <div class="celula-6">c</div>
-      <div class="celula-7">a</div>
-      <div class="celula-8">b</div>
-      <div class="celula-9">c</div>
-      <div class="celula-10">a</div>
-      <div class="celula-11">Z</div>
-    </div>
-  </div>
+</div>
+<div class="celula-2">b</div>
+<div class="celula-3">c</div>
+<div class="celula-4">a</div>
+<div class="celula-5">b</div>
+<div class="celula-6">c</div>
+<div class="celula-7">a</div>
+<div class="celula-8">b</div>
+<div class="celula-9">c</div>
+<div class="celula-10">a</div>
+<div class="celula-11">Z</div>
 
-  </body>
+</div>
+
+</body>
 </html>
