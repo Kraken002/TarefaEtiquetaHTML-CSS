@@ -6,7 +6,7 @@ body{
 }
 
 
-.espaço {
+.space {
 width: 40px;
 
 }
@@ -20,7 +20,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 grid-template-rows: auto;
 }
 
-.celula-1 {border: 0.3px solid black;
+.cel-one {border: 0.3px solid black;
    grid-column-start:1 ;
    grid-column-end: 7;
    display: flex;
@@ -30,7 +30,7 @@ grid-template-rows: auto;
    height: 35px;
   }
 
-  .celula-2 {
+  .cel-two {
     border: 0.3px solid black;
     height:83px;
     width: 235px;
@@ -41,7 +41,7 @@ grid-template-rows: auto;
    font-size: 12px;
   }
 
-  .celula-3 {
+  .cel-thre {
     border: 0.3px solid black;
     height:83px;
     width: 65px;
@@ -57,7 +57,7 @@ font-size: 35px;
 
 }
 
-  .celula-4 {
+  .cel-four {
     border: 0.3px solid black;
     width: 66.5px;
     height: 235.81px;
@@ -71,7 +71,7 @@ font-size: 35px;
     left: -16.5px;
   }
 
-  .celula-5 {
+  .cel-five {
     border: 0.3px solid black;
     width: 168.5px;
   height: 74px;
@@ -85,7 +85,7 @@ font-size: 35px;
    justify-content: flex-start;
   }
 
-  .celula-6 {
+  .cel-six {
     border: 0.3px solid black;
     width: 63.8px;
   height: 74.81px;
@@ -100,7 +100,7 @@ font-size: 35px;
    justify-content: center;
   }
 
-  .celula-7 {
+  .cel-seven {
     border: 0.3px solid black;
     width: 65px;
   height: 153px;
@@ -114,7 +114,7 @@ font-size: 35px;
   
   }
 
-  .celula-8{
+  .cel-eight{
     border: 0.3px solid black;
     width: 168.5px;
   height: 76.5px;
@@ -126,7 +126,7 @@ font-size: 35px;
    font-size: 12px;
   }
 
-  .celula-9{
+  .cel-nine{
     border: 0.3px solid black;
     width: 63.5px;
   height: 77px;
@@ -145,7 +145,7 @@ font-size: 50px;
   }
 
 
-  .celula-10{
+  .cel-ten{
     border: 0.3px solid black;
     width: 368px;
   height: 90px;
@@ -159,7 +159,7 @@ font-size: 50px;
  align-items: center;
   }
 
-  .celula-11{
+  .cel-eleven{
     border: 0.3px solid black;
     width: 368px;
   height: 55px;
@@ -176,7 +176,7 @@ font-size: 50px;
 height: 82px;
   }
 
-  .micro-1 {
+  .micro-one {
     font-size: 14px;
     position: relative;
 top: -14px;
@@ -185,7 +185,7 @@ top: -14px;
     flex-direction: column;
  
   }
-  .micro-2{
+  .micro-two{
 
     position: relative;
     top: -45px;
@@ -193,7 +193,7 @@ top: -14px;
  font-size: 14px;
   }
 
-  .micro-3{
+  .micro-thre{
     position: relative;
     top: -55px;
     left: 5px;
@@ -201,22 +201,21 @@ top: -14px;
   
   }
 
-  .micro-4{
+  .micro-four{
     position: relative;
     top: -105px;
     left: 85px;
     font-size: 18px;
   }
-  .micro-5{
+  .micro-five{
     position: relative;
     top: -140px;
     left: 350px;
     font-size: 12px;
   }
 
- .micro-6{
+ .micro-six{
   position: relative;
   top: -150px;
   left:40px;
  }
-   
